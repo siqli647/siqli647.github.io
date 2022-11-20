@@ -1,0 +1,714 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>RioTinto</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js"></script>
+  <!--googleicons-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!--googlefonts-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../Bootstrap/css/custom.css">
+  <style>
+    .navbar-nav {
+        margin-left: auto;
+    }
+
+
+  </style>
+<!--背景图片划过去
+<style>
+  .parallax {
+    background-image: url(../Image/RioTintio_thumbnail.png);
+  
+    min-height: 100%; 
+  
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+</style>
+-->
+
+
+</head>
+<body>
+  <!--Content-->
+<div class="container-fluid p-0">
+  <!--navbar-->
+  <nav class="navbar navbar-expand-sm navbar-dark fixed-top navbg">
+    <div class="container-fluid p-1 mx-4">
+      <a class="navbar-brand white nav-link" href="index.html" style="font-size: 1.5rem;">Siqi Liu</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav">
+          <li class="nav-item dropdown mx-3">
+            <a class="nav-link dropdown-toggle active white" href="#" role="button" data-bs-toggle="dropdown">Work</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="microsoft.html">Microsoft</a></li>
+              <li><a class="dropdown-item" href="https://www.paddlewaves.com/en/news/20220408" target="_blank">PaddleWaves</a></li>
+            </ul>
+          </li>
+          <li class="nav-item mx-3">
+            <a class="nav-link" href="illustration.html">Illustrations</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link mx-3" href="#">Resume</a>
+          </li>  
+          <li class="nav-item">
+            <a class="nav-link disabled mx-3">Hi~</a>
+          </li> 
+        </ul>
+      </div>
+    </div>
+  </nav>
+ <!--Project Content-->
+<div class="container" style="margin-top: 68px;">
+    <div class="row">
+        <!--Left Floating Nav-->
+      <div id="sidebar"class="col-lg-2">
+          <ul class="nav nav-pills flex-column position-fixed" style="margin-top: 5rem;">
+            <li class="nav-item">
+              <a href="../html/index.html" class="nav-link" style="color: #444444;">
+                <i class="material-icons" style="vertical-align: middle; ">arrow_back_ios</i>
+                Homepage
+              </a>
+              <a href="#s1" class=" nav-link mt-5">Overview</a>
+              <a href="#s2" class="nav-link">Problem</a>
+              <a href="#s3" class="nav-link">Solution</a>
+              <a href="#s4" class="nav-link">Final Design</a>
+              <a href="#s5" class="nav-link">UAT</a>
+              <a href="#s6" class="nav-link">Next</a>
+            </li>
+          </ul>   
+ 
+      </div>
+        <!--Content-->
+      <div data-bs-spy="scroll" data-bs-target="#sidebar" data-bs-offset="0" tabindex="0"class="col-lg-10 col-sm-12">
+         <!--ContenHeader--> 
+          <div class="mx-auto"style="padding-top: 5rem; padding-bottom: 1rem;max-width: 860px; ">
+            <div class="px-3 pb-3" style="font-size: 2.4rem; font-weight: 700; color: #444444;">Field Safety Tools App</div>
+            <div class="px-3 pt-3 pb-3">
+              <h4 style="font-size:1.4rem">
+               <strong style="color:#444444">Rio Tinto Field Safety Tool (RTFST)</strong>  is a people-centric and mobile-enabled technology toolkit, designed to provide insight, reduce complexity and empower frontline teams to operate safely. 
+              </h4> 
+          </div>
+          </div>
+          <div class="row d-flex px-3 py-2 mx-3 mb-5" style="background-color: #FAFAFA;">
+            <div class="col-md-3 ">
+              <div style="font-size: 1rem; color: #888;">
+                Role
+              </div>
+              <p style="color: #E60D2E; font-weight: 500;">
+                UX consultant
+              </p>
+            </div>
+            
+            <div class="col-md-3">
+              <div style="font-size: 1rem; color: #888;">
+                Timeline
+              </div>
+              <p style="color:#444;">
+                2022.02-04
+              </p>
+            </div>
+
+            <div class="col-md-3">
+              <div style="font-size: 1rem; color: #888;">
+                Team member
+              </div>
+              <p style="color:#444;">
+                 Project Manager;
+                 <br>
+                 Tech Lead;
+                 <br>
+                 UX consultant;
+                 <br>
+                 Solution Architect;
+                 <br>
+                 Business Analyst;
+                 <br>
+                 Developer;
+              </p>
+            </div>
+
+            <div class="col-md-3">
+              <div class="mb-2"style="font-size: 1rem; color: #888;">
+                Scope
+              </div>
+              <span class="badge border border-danger mb-2" style="background-color: #FEF3F5;color: #E60D2E;">
+                UX workshop
+              </span>
+              <span class="badge border border-danger mb-2" style="background-color: #FEF3F5;color: #E60D2E;">
+                UX/UI Design
+              </span>
+              <span class="badge border border-danger mb-2" style="background-color: #FEF3F5; color: #E60D2E;">
+                UX Walkthrough
+              </span>
+              <span class="badge border border-danger " style="background-color: #FEF3F5; color: #E60D2E;">
+                Accessible Design
+              </span>
+
+            </div>
+
+            
+
+          </div>
+         <!--
+                    <div class="parallax img-fluid px-3"alt="Responsive image">
+         </div>
+          ContentThumbnail
+        --> 
+        <img src="../Image/RioTintio_thumbnail.png" class="img-fluid px-3 " alt="Responsive image">
+
+        <!--Overview_s1--> 
+        <div id="s1" class="mx-auto px-3 pt-3" style="max-width: 860px; ">
+  <h3 class="headline" style="margin-top: 10rem;">OVERVIEW</h3>
+  <div class="mb-5 "style="color: #222222; font-size: 2rem; font-weight:700;">Project Background</div>
+    <h5 class="mb-3" style="color: #666; font-weight: 400; font-size: 1.4rem; line-height: 2.4rem;">
+      In order to <strong style="color:#444444">prevent accidents</strong> in mining sites and <strong style="color:#444444">raise the safety awareness </strong>of the front-line team, Rio Tinto has all the working staff at the front-line go through different safety control verifications before they start working. 
+      <br>
+      <br>
+      The application is implemented on <strong style="color:#444444">PowerApps Canvas </strong>for front-line workers to go through different verification forms based on their location, language and working type.
+    </h5>
+    <a href="#s4">
+    <button class="btn1 mt-3 mb-5">Jump to the final design!</button>
+    </a>
+        </div>
+        <!--Problem_s2-->
+        <div id="s2" class="mx-auto px-3 pt-3" style="max-width: 860px; ">
+  <h3  class="headline" style="margin-top: 10rem;">PROBLEM</h3>
+  <div class="mb-4"style="color: #222222; font-size: 2rem; font-weight:700;">UX Workshop</div>
+    <h5 style="color: #666; font-weight: 400; font-size: 1.4rem; line-height: 2.4rem;">
+      Through the first UX workshop with the Rio Tinto stakeholders, the <strong style="color:#444444">personas</strong> can be identified and the user needs from the customers was gathered.
+      <br>
+      <div class="card mb-4 shadow p-3  bg-white rounded" style="border: 0px;margin-top: 3rem;">
+        <ul class="nav">
+          <li class="nav-item">
+            <a href="#Persona1" class="nav-link-red active px-3" style="font-size: 1rem;"data-bs-toggle="tab">Persona1</a>
+          </li>
+          <div style="color:#cdcdcd; font-size: 1rem; margin-top: 2px; font-weight: 300;">|</div>
+          <li class="nav-item">
+            <a href="#Persona2" class="nav-link-red px-3" data-bs-toggle="tab" style="font-size: 1rem;">Persona2</a>
+          </li>
+        </ul>
+        <!--Persona1-->
+        <div class="tab-content">
+          <div class="tab-pane fade show active " id="Persona1">
+            <!--Persona1 Content-->
+            <div class="row mt-4">
+            <div class="col-sm-3">
+              <img class="avatarstyle" src="../Image/Avatar/w Charlotte Walton.png" width="120">
+            </div>
+            <div class="col-sm-9 pb-3 px-0">
+              <h3>Melissa</h3>
+              <h6 style="font-size:1rem;font-weight: 400; color: #E60D2E;">Front-line Supervisor</h6>
+              <ul class="ps-3" style="margin-bottom: 0;">
+                <li style="font-size: 1.2rem; color: #444;">Goals</ul>
+                <ol class="list-group list-group-numbered py-0">
+                  <li class="list-group-item">Make sure all the front-line workers work safely </li>
+                  <li class="list-group-item">Avoid unnecessary financial lost because of accidents caused by wrong operations</li>
+                </ul>
+                </ol>
+                <li style="font-size: 1.2rem;  color: #444;">Pain Points</li>
+                <ol class="list-group list-group-numbered py-0">
+                  <li class="list-group-item">If the front-line workers don't have risk/hazard verifications at the forefront to make the right decision, they can potentially make the wrong one</li>
+                  <li class="list-group-item">The front-line workers don't have e a common language, therefore the ability to use data is restricted</li>
+                </ul>
+                </ol>
+                <li style="font-size: 1.2rem; color: #444;">Working style</ul>
+                  <div>
+                    <i class="material-icons ps-3" style="vertical-align: middle;">computer</i>
+                    <i class="material-icons ps-2" style="vertical-align: middle;">phone_iphone</i>
+                  </div>
+              </ul>
+            </div>
+            </div>
+          </div>
+        <!--Persona2-->
+        <div class="tab-pane fade" id="Persona2">
+          <div class="row mt-4">
+            <div class="col-sm-3">
+              <img class="avatarstyle" src="../Image/Avatar/Person/42px.png" width="120">
+            </div>
+            <div class="col-sm-9 pb-3 px-0">
+              <h3>John</h3>
+              <h6 style="font-size:1rem;font-weight: 400; color: #E60D2E;">Front-line workers</h6>
+              <ul class="ps-3" style="margin-bottom: 0;">
+                <li style="font-size: 1.2rem; color: #444;">Goals</ul>
+                <ol class="list-group list-group-numbered py-0">
+                  <li class="list-group-item">Get home safe and sound </li>
+                  <li class="list-group-item">Additional supports will be needed if emergency happens, like equipments breaks or power shut down</li>
+                </ul>
+                </ol>
+                <li style="font-size: 1.2rem; color: #444;">Pain Points</li>
+                <ol class="list-group list-group-numbered py-0">
+                  <li class="list-group-item">The working environment isn't very good, like the Internet, the light and the noise in the underground mining site</li>
+                  <li class="list-group-item">Phones are not available among some of the mining sites</li>
+                </ul>
+                </ol>
+                <li style="font-size: 1.2rem; color: #444;">Working style</ul>
+                  <div>
+                    <i class="material-icons ps-2" style="vertical-align: middle;">tablet</i>
+                    <i class="material-icons ps-2" style="vertical-align: middle;">wifi_off</i>
+                  </div>
+              </ul>
+            </div>
+          </div>
+        </div>
+        </div>
+      </div>
+      <button style="background-color: #FFFFFF; font-size: 1rem; color: #cdcdcd; border-width: 0px;" data-bs-toggle="collapse" data-bs-target="#cocontent">See attachments  &raquo;</button>
+      <div id="cocontent" class="collapse">
+        <img src="../Image/RioTinto/WS_Note1.png" class="my-3 img-fluid"style=" border-radius: 8px;" alt="Responsive image">
+       
+        <img src="../Image/RioTinto/WS_Note2.png" style=" border-radius: 8px;" class="my-3 img-fluid"alt="Responsive image">
+        
+      </div>
+      
+      <br>
+      <br>
+      <br>
+      <h5 style="color: #666; font-weight: 400; font-size: 1.4rem; line-height: 2.5rem;">
+        A following <strong style="color:#444444">deep dive workshop</strong> was conducted after the first workshop finished, the front-line team as the target user attent the workshop in order to drill down the user needs, <strong style="color:#444444">finalize the user journey map</strong> and determine the final deliverables from the UX side.
+      </h5>
+      
+    </h5>
+
+    <div class="mx-auto"style="padding-top: 5rem; padding-bottom: 1rem;max-width: 860px; ">
+      <div class="row" style="font-size: 2rem; font-weight: 700; color: #222222;">
+      <div class="col-sm-3">
+        <h4 style="color: #222222; font-weight: 700;">Problem</h4>
+      </div>
+      <div class="col-sm-9">
+       <h4 style="font-size: 1.4rem; font-weight: 400;">How to make front-line workers efficiently go through the right type of risk/hazard form at mining sites</h4> 
+      </div>
+      </div>
+      <br>
+      <div class="row mt-2">
+        <div class="col-sm-3">
+          <h4 style="color: #222222; font-weight: 700;">User Needs</h4>
+        </div>
+        
+        <div class="col-sm-9">
+          <div class="row">
+            <div class="col-sm-6 px-0">
+             <h4 style="color: #444;font-weight: 500;">
+              <i class="material-icons pe-2" style="vertical-align: middle; color: #E60D2E;">share_location</i>
+              Efficiency
+            </h4>
+            <p style="color: #888; font-size: 1 rem;">
+              The right type of risk verifications needs to be present to the right work type
+            </p>
+            </div>
+            <div class="col-sm-6 px-0">
+             <h4 style="color: #444;font-weight: 500;">
+              <i class="material-icons pe-2" style="vertical-align: middle; color: #E60D2E;">wifi_tethering</i>
+              Availability
+            </h4> 
+             <p style="color: #888; font-size: 1 rem;">
+              The access to the right information should be guaranteed even without Internet
+             </p>
+            </div>
+          </div>
+       
+          <div class="row pt-2">
+            <div class="col-sm-6 px-0">
+              <h4 style="color: #444;font-weight: 500;">
+                <i class="material-icons pe-2" style="vertical-align: middle; color: #E60D2E;">disabled_visible</i>
+                Accessibility
+              </h4>
+              <p style="color: #888; font-size: 1 rem;">The verification content should be reading-friendly under insufficient light </p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+      <br>
+      <div class="row mt-2" style="font-size: 2rem; font-weight: 700; color: #222222;">
+        <div class="col-sm-3">
+          <h4 style="color: #222222; font-weight: 700;">Outcome</h4>
+        </div>
+        <div class="col-sm-9">
+         <h4 style="font-size: 1.4rem; font-weight: 400;">
+          <div class="row">
+            <div class="col-sm-4 text-center">
+              <h4 style="color: #444; font-weight: 500;">
+                <i class="material-icons" style="vertical-align: middle; font-size:2.4rem; max-width: 38.4px;">account_circle_full</i>
+                3000+
+              </h4>
+              <p style="color: #666;">Users</p>
+            </div>
+
+            <div class="col-sm-4 text-center">
+              <h4  style="color: #444; font-weight: 500;">
+                <i class="material-icons" style="vertical-align: middle;  font-size:2.4rem;">flag_circle</i>
+                18
+              </h4>
+              <p style="color: #666;">Countries</p>
+            </div>
+
+            <div class="col-sm-4 text-center">
+              <h4 style="color: #444; font-weight: 500;">
+                <i class="material-icons" style="vertical-align: middle;  font-size:2.4rem;">assistant_navigation</i>
+                200+
+              </h4>
+              <p style="color: #666;">Mining sites</p>
+            </div>
+          </div>
+          
+        </h4> 
+        </div>
+      </div>
+      <br>
+      <div class="row" style="font-size: 2rem; font-weight: 700; color: #222222;">
+        <div class="col-sm-3">
+          <h4 style="color: #222222; font-weight: 700;">Impact</h4>
+        </div>
+        <div class="col-sm-9 px-0">
+         <h4 style="font-size: 1.4rem; font-weight: 400;">This is the <strong style="color: #222222">first strategic Dynamics 365 engagement</strong>  of a <strong style="color: #222222">$350 MILLION MACC account</strong> (Sponsored by EVP of Microsoft).  </h4> 
+        </div>
+        </div>
+
+    </div>
+
+        </div>
+ 
+        <img src="../Image/RioTinto/thumbnail2.png" class="img-fluid px-4" style="margin-top: 5rem; "alt="Responsive image">
+
+        <!--Solution_s3-->
+        <div id="s3"  class="mx-auto px-3 pt-3" style="max-width: 860px; ">
+  <h3 class="headline"  style="margin-top: 9rem;">SOLUTION</h3>
+  <div class="mb-4"style="color: #222222; font-size: 2rem; font-weight:700;">Project Goals</div>
+  <h5 class="mb-3" style="color: #666; font-weight: 400; font-size: 1.4rem; line-height: 2.4rem;">
+    In the <strong style="color:#444444">MVP</strong> stage, the Microsoft delivery team deicided to focus on these points, at the same time, we had to take the <strong style="color:#444444">PowerApps Canvas boundary</strong> and <strong style="color:#444444">RioTinto brand guideline</strong> into consideration.
+    </h5>
+    <br>
+  <div class="row my-5">
+    <div class="col mx-3" style="background-color: #ececec; color: #444; border-radius: 10px;">
+      <i class="material-icons pt-2" style="vertical-align: middle;font-size: 2rem;">looks_one</i>
+      <h4 style="font-size: 1.4rem; font-weight: 500;color: #444444;">
+        Recommendation
+      </h4>
+      <p style="font-size: 1rem; color: #666;">
+      The app will recommend the right verification to the front-line workers based on their <strong>location</strong>, <strong>mining site</strong> and <strong>language</strong>.
+      </p>
+    </div>
+
+    <div class="col mx-3" style="background-color: #ececec; color: #444;border-radius: 10px;">
+      <i class="material-icons  pt-2" style="vertical-align: middle;font-size: 2rem;">looks_two</i>
+      <h4 style="font-size: 1.4rem; font-weight: 500;color: #444444;">
+        Offline Capability
+      </h4>
+      <p style="font-size: 1rem; color: #666;">
+        The offline capability will allow the users to access to the verifications <strong>without</strong> WiFi and reupload them once the Internet is available.
+        </p>
+
+    </div>
+
+    <div class="col mx-3" style="background-color: #ececec; color: #444;border-radius: 10px;">
+      <i class="material-icons pt-2" style="vertical-align: middle;font-size: 2rem;">looks_3</i>
+      <h4 style="font-size: 1.4rem; font-weight: 500;color: #444444;">
+        Dark mode design
+      </h4>
+      <p style="font-size: 1rem; color: #666;">
+        The dark mode design will be more <strong>friendly</strong> and <strong>healthy</strong> to users' eyes <strong>under limited light environment</strong> especially for the mining workers.
+        </p>
+    </div>
+
+  </div>
+
+  <div class="mb-4"style="color: #222222; font-size: 2rem; font-weight:700; margin-top:8rem">Sprint Planning</div>
+  <h5 class="mb-3" style="color: #666; font-weight: 400; font-size: 1.4rem; line-height: 2.4rem;">
+    Before the delivery team kicked off the sprints, as a UX consultant , I worked with <strong style="color:#444444">Product Owner</strong> to <strong style="color:#444444">finalize the user story</strong> and also <strong style="color:#444444">the design sprint planning</strong>.
+    <br>
+  </h5>
+  <button style="background-color: #FFFFFF; font-size: 1rem; color: #cdcdcd; border-width: 0px;" data-bs-toggle="collapse" data-bs-target="#cocontent3">See attachments  &raquo;</button>
+      <div id="cocontent3" class="collapse">
+        <img src="../Image/RioTinto/sprintplan.png" class="my-3 img-fluid"style=" border-radius: 8px;" alt="Responsive image">
+       
+        <img src="../Image/RioTinto/userstory.png" style=" border-radius: 8px;" class="my-3 img-fluid"alt="Responsive image">
+        
+      </div>
+
+        </div>
+        <!--Final Design_s4-->
+        <div id="s4" class="mx-auto px-3 pt-3" style="max-width: 860px; ">
+  <h3  class="headline" style="margin-top: 10rem;">FINAL DESIGN</h3>
+  <div class="mb-4"style="color: #222222; font-size: 2rem; font-weight:700;">Information Architect</div>
+  <h4 style="font-size:1.4rem">The information architect is narrowed down based on the flow diagram, which was created from the user journey map in the Deep Dive Workshop, and it shows the structure of each frames</h4>
+  <img src="../Image/RioTinto/flowdiagram.png" style=" border-radius: 8px;" class="my-3 img-fluid"alt="Responsive image">
+  <button style="background-color: #FFFFFF; font-size: 1rem; color: #cdcdcd; border-width: 0px; " data-bs-toggle="collapse" data-bs-target="#cocontent1">See example  &raquo;</button>
+  <div id="cocontent1" class="collapse">
+    <img src="../Image/RioTinto/wireflow.png" style=" border-radius: 8px;" class="my-3 img-fluid"alt="Responsive image">
+  </div>
+
+  <h4 class="pt-5" style="font-size: 1.4rem;">A <strong style="color:#444444">process map</strong> is also initiated to help understand the workflow for each persona</h4>
+
+  <button style="background-color: #FFFFFF; font-size: 1rem; color: #cdcdcd; border-width: 0px; " data-bs-toggle="collapse" data-bs-target="#cocontent12">See example  &raquo;</button>
+  <div id="cocontent12" class="collapse">
+    <img src="../Image/RioTinto/process map.png" style=" border-radius: 8px;" class="my-3 img-fluid"alt="Responsive image">
+  </div>
+  <br>
+
+
+
+  <div class="mb-4"style="color: #222222; font-size: 2rem; font-weight:700; margin-top:5rem">Design Guideline</div>
+
+  <ul class="nav">
+    <li class="nav-item">
+      <a href="#PowerApps" class="nav-link-red  px-3" style="font-size: 1rem;"data-bs-toggle="tab">PowerApps Canvas</a>
+    </li>
+    <div style="color:#cdcdcd">|</div>
+    <li class="nav-item">
+      <a href="#riotinto" class="nav-link-red active px-3" data-bs-toggle="tab" style="font-size: 1rem;">Rio Tinto</a>
+    </li>
+  </ul>
+  <div class="tab-content">
+    <div class="tab-pane fade  " id="PowerApps">
+      <!--PowerApps Content-->
+      <p class="p-3"style="color: #666; font-weight:400">Since the application will be implemented on PowerApps Canvas, the boundary of PowerApps Canvas is taken into consideration in the design guideline.</p>
+      <img src="../Image/RioTinto/PowerApps Design Guideline.png" class="img-fluid " alt="Responsive image">
+    </div>
+
+    <div class="tab-pane fade show active" id="riotinto">
+      <!--PowerApps Content-->
+      <p class="p-3"style="color: #666;font-weight:400">Meanwhile the Rio Tinto has their own brand guideline, the FST app wil be part of the Rio Tinto product eco-system, so the brand consistency and identification should be guarantineed.</p>
+      <div class="row">
+        <div class="col-sm-6">
+          <img src="../Image/RioTinto/colorpallete.png" class="img-fluid" alt="Responsive image">
+        </div>
+        <div class="col-sm-6">
+          <img src="../Image/RioTinto/typo.png" class="img-fluid"  alt="responsive image">
+        </div>
+        
+
+      </div>
+    </div>
+  </div>
+
+  <div class="mb-4"style="color: #222222; font-size: 2rem; font-weight:700; margin-top:10rem">Design Process</div>
+  </div>
+  <div class="container-fluid mx-0 my-5"style="background-color:#EEEEEE">
+    <div class="row mb-0">
+      <div class="col-sm-3">
+      <p class="pt-3"style="color:#E60D2E; font-size: 1rem; font-weight: 900;"> Section1</p> 
+      </div>
+    </div>
+    <div class="row mt-0 mb-4">
+      <div class="col-sm-3">
+      <h4 style="color: #444; font-weight:bold"> Homepage</h4> 
+      </div>
+      <div class="col-sm-9">
+        <p style="color: #666">Homepage, as the landing page, is to have a quick action and information-obtain for the user.</p>
+      </div>
+    </div>
+    <div class="row">
+      <ul class="nav">
+        <li class="nav-item">
+          <a href="#lowfi" class="nav-link-red active px-3" style="font-size: 1rem;"data-bs-toggle="tab">Low-fi Design</a>
+        </li>
+        <div style="color:#cdcdcd">|</div>
+        <li class="nav-item">
+          <a href="#highfi" class="nav-link-red px-3" data-bs-toggle="tab" style="font-size: 1rem;">High-fi Wireframe</a>
+        </li>
+        <div style="color:#cdcdcd">|</div>
+        <li class="nav-item">
+          <a href="#highcontrast" class="nav-link-red px-3" data-bs-toggle="tab" style="font-size: 1rem;">High-contrast Mode</a>
+        </li>
+      </ul>
+<div class="tab-content">
+  <div class="tab-pane fade text-center show active " id="lowfi">
+    <video muted autoplay loop draggable="true" style="max-width:700px" alt="Responsive video">
+      <source src="../Image/RioTinto/video/homepage.mov">
+    </video>
+  </div>
+
+  <div class="tab-pane fade text-center" id="highfi">
+    <video muted autoplay loop draggable="true" style="max-width:700px" alt="Responsive video">
+      <source src="../Image/RioTinto/video/highfidelity.mov">
+    </video>
+  </div>
+
+  <div class="tab-pane fade text-center " id="highcontrast">
+    <video muted autoplay loop draggable="true" style="max-width:700px" alt="Responsive video" class="py-5">
+      <source src="../Image/RioTinto/video/HC_Hompage.mov">
+    </video>
+  </div>
+
+</div>
+
+    </div>
+  </div>
+
+  <div class="container-fluid mx-0 my-5"style="background-color:#EEEEEE">
+    <div class="row mb-0">
+      <div class="col-sm-3">
+      <p class="pt-3"style="color:#E60D2E; font-size: 1rem; font-weight: 900;"> Section2</p> 
+      </div>
+    </div>
+    <div class="row mt-0 mb-4">
+      <div class="col-sm-3">
+      <h4 style="color: #444; font-weight:bold"> Activity</h4> 
+      </div>
+      <div class="col-sm-9">
+        <p style="color: #666">Create an activity is the most frequently used feature for frontline workers, non-compliance answer requires further information considering the risks.</p>
+      </div>
+    </div>
+    <div class="row">
+      <ul class="nav">
+        <li class="nav-item">
+          <a href="#lowfi1" class="nav-link-red active px-3" style="font-size: 1rem;"data-bs-toggle="tab">Low-fi Design</a>
+        </li>
+        <div style="color:#cdcdcd">|</div>
+        <li class="nav-item">
+          <a href="#highfi1" class="nav-link-red px-3" data-bs-toggle="tab" style="font-size: 1rem;">High-fi Wireframe</a>
+        </li>
+        <div style="color:#cdcdcd">|</div>
+        <li class="nav-item">
+          <a href="#highcontrast1" class="nav-link-red px-3" data-bs-toggle="tab" style="font-size: 1rem;">High-contrast Mode</a>
+        </li>
+      </ul>
+<div class="tab-content">
+  <div class="tab-pane fade show active text-center" id="lowfi1">
+    <video muted autoplay loop draggable="true" style="max-width:700px" alt="Responsive video">
+      <source src="../Image/RioTinto/video/activity_Low.mov">
+    </video>
+  </div>
+
+  <div class="tab-pane fade text-center" id="highfi1">
+    <video muted autoplay loop draggable="true" style="max-width:700px" alt="Responsive video">
+      <source src="../Image/RioTinto/video/activity_highfi.mov">
+    </video>
+  </div>
+
+  <div class="tab-pane fade text-center " id="highcontrast1">
+    <video muted autoplay loop draggable="true" style="max-width:700px" alt="Responsive video" class="py-5">
+      <source src="../Image/RioTinto/video/activity_highfi_hc.mov">
+    </video>
+  </div>
+
+</div>
+
+    </div>
+  </div>
+
+  <div class="container-fluid mx-0 my-5"style="background-color:#EEEEEE">
+    <div class="row mb-0">
+      <div class="col-sm-3">
+      <p class="pt-3"style="color:#E60D2E; font-size: 1rem; font-weight: 900;"> Section3</p> 
+      </div>
+    </div>
+    <div class="row mt-0 mb-4">
+      <div class="col-sm-3">
+      <h4 style="color: #444; font-weight:bold"> Approval</h4> 
+      </div>
+      <div class="col-sm-9">
+        <p style="color: #666">As a front-line supervisor, the approval workflow should be quick and accurate. The verification card will highlight those contained non-conformance answers so that they only need to check the highlighted card.</p>
+      </div>
+    </div>
+    <div class="row">
+      <ul class="nav">
+        <li class="nav-item">
+          <a href="#lowfi2" class="nav-link-red active px-3" style="font-size: 1rem;"data-bs-toggle="tab">Low-fi Design</a>
+        </li>
+        <div style="color:#cdcdcd">|</div>
+        <li class="nav-item">
+          <a href="#highfi2" class="nav-link-red px-3" data-bs-toggle="tab" style="font-size: 1rem;">High-fi Wireframe</a>
+        </li>
+        <div style="color:#cdcdcd">|</div>
+        <li class="nav-item">
+          <a href="#highcontrast2" class="nav-link-red px-3" data-bs-toggle="tab" style="font-size: 1rem;">High-contrast Mode</a>
+        </li>
+      </ul>
+<div class="tab-content">
+  <div class="tab-pane fade show active text-center" id="lowfi2">
+    <video muted autoplay loop draggable="true" style="max-width:700px" alt="Responsive video">
+      <source src="../Image/RioTinto/video/supervisor_lowfi.mov">
+    </video>
+  </div>
+
+  <div class="tab-pane fade text-center" id="highfi2">
+    <video muted autoplay loop draggable="true" style="max-width:700px" alt="Responsive video">
+      <source src="../Image/RioTinto/video/supervisor_highfi.mov">
+    </video>
+  </div>
+
+  <div class="tab-pane fade text-center " id="highcontrast2">
+    <video muted autoplay loop draggable="true" style="max-width:700px" alt="Responsive video" class="py-5">
+      <source src="../Image/RioTinto/video/Supervisor_hc.mov">
+    </video>
+  </div>
+
+
+    </div>
+  </div>
+
+  </div>
+        <!--UAT_s5-->
+        <div id="s5" class="mx-auto px-3 pt-3" style="max-width: 860px; ">
+  <h3  class="headline" style="margin-top: 8rem;">UAT</h3>
+  <div class="mb-4"style="color: #222222; font-size: 2rem; font-weight:700;">User Acceptance Test</div>
+  <h4 style="font-size:1.4rem">UAT was initiated to see whether the basic functions work good and meet the user acceptance criteria. It was also a good chance for me to observe how the end user interact with the application and see their feedbacks.  </h4>
+    <button style="background-color: #FFFFFF; font-size: 1rem; color: #cdcdcd; border-width: 0px;" data-bs-toggle="collapse" data-bs-target="#cocontentUAT">See example  &raquo;</button>
+    <div id="cocontentUAT" class="collapse">
+      <img src="../Image/RioTinto/UAT.png"  class="my-3 img-fluid"style=" border-radius: 8px;" alt="Responsive image">
+      
+    </div>
+
+        </div>
+        <!--Next_s6-->
+        <div id="s6" class="mx-auto px-3 pt-3" style="max-width: 860px; ">
+          <h3  class="headline" style="margin-top: 8rem;">Next</h3>
+          <div class="mb-4"style="color: #222222; font-size: 2rem; font-weight:700;">Future Step</div>
+          <h4 style="font-size:1.4rem">
+            After the UAT and the report to the stakeholders, the customers are very<strong style="color:#444444">satisfied </strong> with the first stage's deliverables, and they see the potential of the Field Safety Tool.
+          </br>
+        </br>
+            As a result, <strong style="color:#444444">a few more features</strong> are initially addressed after a further deep-dive workshop
+          </h4>
+          <button style="background-color: #FFFFFF; font-size: 1rem; color: #cdcdcd; border-width: 0px;" data-bs-toggle="collapse" data-bs-target="#cocontentpm">See updated process map &raquo;</button>
+          <div id="cocontentpm" class="collapse">
+            <img src="../Image/RioTinto/Action_processmap.png"  class="my-3 img-fluid"style=" border-radius: 8px;" alt="Responsive image">
+            
+          </div>
+
+        </div>
+        <div class="mt-5 px-5"style="background-color:#EEEEEE">
+
+          <img src="../Image/RioTinto/iteratedhomepage.png" class="img-fluid px-4" style="margin-top: 5rem; "alt="Responsive image">
+          <img src="../Image/RioTinto/action.png" class="img-fluid px-4" style="margin-top: 5rem; "alt="Responsive image">
+        </div>
+
+        <div class="mx-auto px-3 pt-3" style="max-width:860ox">
+          <h3  class="headline mb-3" style="margin-top: 8rem;">Shout out to the amazing team</h3>
+          <button style="background-color: #FFFFFF; font-size: 1.4rem; color: #444; border-width: 0px;" data-bs-toggle="collapse" data-bs-target="#cocontent4">Customer feedback  &raquo;</button>
+          <div id="cocontent4" class="collapse">
+            <img src="../Image/RioTinto/email.png"  class="my-3 img-fluid"style=" border-radius: 8px;" alt="Responsive image">
+            
+          </div>
+          <img src="../Image/RioTinto/Appreciate.PNG"  class="mt-3 img-fluid"style=" border-radius: 8px; margin-bottom: 10rem" alt="Responsive image">
+
+
+        </div>
+  
+  
+      </div>
+    </div>
+
+
+</div>
+   <!--Footer-->
+   <div class="container-fluid bg-dark py-3 px-5 text-end text-white">
+    <p class="mb-0">©2022 coded by Siqi Liu</p>
+  </div>
+
+</body>
+</html>
