@@ -34,7 +34,14 @@
   }
 </style>
 -->
+<!-- Add the Bootstrap CSS 
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 
+Add the Bootstrap JavaScript and jQuery
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+-->
 
 </head>
 <body>
@@ -96,9 +103,9 @@
           <div class="mx-auto"style="padding-top: 5rem; padding-bottom: 1rem;max-width: 860px; ">
             <div class="px-3 pb-3" style="font-size: 2.4rem; font-weight: 700; color: #444444;">Field Safety Tools App</div>
             <div class="px-3 pt-3 pb-3">
-              <h4 style="font-size:1.4rem">
+              <h5 style="color: #666; font-weight: 400; font-size: 1.4rem; line-height: 2.4rem;">
                <strong style="color:#444444">Rio Tinto Field Safety Tool (RTFST)</strong>  is a people-centric and mobile-enabled technology toolkit, designed to provide insight, reduce complexity and empower frontline teams to operate safely. 
-              </h4> 
+              </h5> 
           </div>
           </div>
           <div class="row d-flex px-3 py-2 mx-3 mb-5" style="background-color: #FAFAFA;">
@@ -143,16 +150,16 @@
               <div class="mb-2"style="font-size: 1rem; color: #888;">
                 Scope
               </div>
-              <span class="badge border border-danger mb-2" style="background-color: #FEF3F5;color: #E60D2E;">
+              <span class="badge border border-danger mb-3" style="background-color: #FEF3F5;color: #E60D2E; font-size: 1rem; font-weight: 500;">
                 UX workshop
               </span>
-              <span class="badge border border-danger mb-2" style="background-color: #FEF3F5;color: #E60D2E;">
+              <span class="badge border border-danger mb-3" style="background-color: #FEF3F5;color: #E60D2E; font-size: 1rem; font-weight: 500;">
                 UX/UI Design
               </span>
-              <span class="badge border border-danger mb-2" style="background-color: #FEF3F5; color: #E60D2E;">
+              <span class="badge border border-danger mb-3" style="background-color: #FEF3F5; color: #E60D2E; font-size: 1rem; font-weight: 500;">
                 UX Walkthrough
               </span>
-              <span class="badge border border-danger " style="background-color: #FEF3F5; color: #E60D2E;">
+              <span class="badge border border-danger " style="background-color: #FEF3F5; color: #E60D2E; font-size: 1rem; font-weight: 500;">
                 Accessible Design
               </span>
 
@@ -166,14 +173,14 @@
          </div>
           ContentThumbnail
         --> 
-        <img src="../Image/RioTintio_thumbnail.png" class="img-fluid px-3 " alt="Responsive image">
+        <img src="../Image/RioTintio_thumbnail.png" class="img-fluid px-3 " style="cursor: pointer;" alt="Responsive image" data-toggle="modal" data-target="#myModal1">
 
         <!--Overview_s1--> 
         <div id="s1" class="mx-auto px-3 pt-3" style="max-width: 860px; ">
   <h3 class="headline" style="margin-top: 10rem;">OVERVIEW</h3>
   <div class="mb-5 "style="color: #222222; font-size: 2rem; font-weight:700;">Project Background</div>
     <h5 class="mb-3" style="color: #666; font-weight: 400; font-size: 1.4rem; line-height: 2.4rem;">
-      In order to <strong style="color:#444444">prevent accidents</strong> in mining sites and <strong style="color:#444444">raise the safety awareness </strong>of the front-line team, Rio Tinto has all the working staff at the front-line go through different safety control verifications before they start working. 
+      To <strong style="color:#444444">prevent accidents </strong> and <strong style="color:#444444">increase safety awareness</strong> among front-line teams, Rio Tinto requires all staff to complete safety control verifications before beginning work at mining sites. 
       <br>
       <br>
       The application is implemented on <strong style="color:#444444">PowerApps Canvas </strong>for front-line workers to go through different verification forms based on their location, language and working type.
@@ -187,7 +194,7 @@
   <h3  class="headline" style="margin-top: 10rem;">PROBLEM</h3>
   <div class="mb-4"style="color: #222222; font-size: 2rem; font-weight:700;">UX Workshop</div>
     <h5 style="color: #666; font-weight: 400; font-size: 1.4rem; line-height: 2.4rem;">
-      Through the first UX workshop with the Rio Tinto stakeholders, the <strong style="color:#444444">personas</strong> can be identified and the user needs from the customers was gathered.
+      After the initial workshop, we conducted a follow-up <strong style="color:#444444">deep dive workshop</strong>  with the front-line team as our target user group. This workshop allowed us to further explore their needs, finalize the <strong style="color:#444444">user journey map</strong>, and determine the final deliverables from a UX perspective.
       <br>
       <div class="card mb-4 shadow p-3  bg-white rounded" style="border: 0px;margin-top: 3rem;">
         <ul class="nav">
@@ -208,7 +215,7 @@
               <img class="avatarstyle" src="../Image/Avatar/w Charlotte Walton.png" width="120">
             </div>
             <div class="col-sm-9 pb-3 px-0">
-              <h3>Melissa</h3>
+              <h3 style="font-weight: 600;">Melissa</h3>
               <h6 style="font-size:1rem;font-weight: 400; color: #E60D2E;">Front-line Supervisor</h6>
               <ul class="ps-3" style="margin-bottom: 0;">
                 <li style="font-size: 1.2rem; color: #444;">Goals</ul>
@@ -267,6 +274,30 @@
       </div>
       <button style="background-color: #FFFFFF; font-size: 1rem; color: #cdcdcd; border-width: 0px;" data-bs-toggle="collapse" data-bs-target="#cocontent">See attachments  &raquo;</button>
       <div id="cocontent" class="collapse">
+        <div class="row pt-5">
+          <div class="nav-link-red active" style="font-size: 1rem;">
+            Empahty Map
+          </div>
+
+          </div>
+          <div class="row">
+          <div class="col px-5">
+            <img src="../Image/RioTinto/empathy map_frontline worker.png" class="my-3 img-fluid" alt="Responsive image">
+            <div class="text-center"style="font-size: 1.2rem; font-weight:400; color: #222;">
+              front-line worker
+            </div>
+          </div>
+         <div class="col px-5">
+          <img src="../Image/RioTinto/empathy map_frontline manager.png" class="my-3 img-fluid" alt="Responsive image">
+          <div class="text-center"style="font-size: 1.2rem; font-weight:400; color: #222;">
+            front-line manager
+          </div>
+         </div>
+          
+        </div>
+        <div class="nav-link-red active mt-5" style="font-size: 1rem;">
+          Interview Notes
+        </div>
         <img src="../Image/RioTinto/WS_Note1.png" class="my-3 img-fluid"style=" border-radius: 8px;" alt="Responsive image">
        
         <img src="../Image/RioTinto/WS_Note2.png" style=" border-radius: 8px;" class="my-3 img-fluid"alt="Responsive image">
@@ -305,7 +336,7 @@
               Efficiency
             </h4>
             <p style="color: #888; font-size: 1 rem;">
-              The right type of risk verifications needs to be present to the right work type
+              The right type of verifications needs to be present to the right work type
             </p>
             </div>
             <div class="col-sm-6 px-0">
@@ -388,7 +419,7 @@
   <h3 class="headline"  style="margin-top: 9rem;">SOLUTION</h3>
   <div class="mb-4"style="color: #222222; font-size: 2rem; font-weight:700;">Project Goals</div>
   <h5 class="mb-3" style="color: #666; font-weight: 400; font-size: 1.4rem; line-height: 2.4rem;">
-    In the <strong style="color:#444444">MVP</strong> stage, the Microsoft delivery team deicided to focus on these points, at the same time, we had to take the <strong style="color:#444444">PowerApps Canvas boundary</strong> and <strong style="color:#444444">RioTinto brand guideline</strong> into consideration.
+    During the <strong style="color: #222222">MVP </strong> stage, the Microsoft delivery team decided to prioritize certain key points while also considering <strong style="color: #222222">the boundaries of the PowerApps Canvas</strong> and adhering to the <strong style="color: #222222">Rio Tinto brand guidelines</strong>Rio Tinto brand guidelines."
     </h5>
     <br>
   <div class="row my-5">
@@ -655,10 +686,92 @@
         <!--UAT_s5-->
         <div id="s5" class="mx-auto px-3 pt-3" style="max-width: 860px; ">
   <h3  class="headline" style="margin-top: 8rem;">UAT</h3>
-  <div class="mb-4"style="color: #222222; font-size: 2rem; font-weight:700;">User Acceptance Test</div>
-  <h4 style="font-size:1.4rem">UAT was initiated to see whether the basic functions work good and meet the user acceptance criteria. It was also a good chance for me to observe how the end user interact with the application and see their feedbacks.  </h4>
+  <div class="mb-4"style="color: #222222; font-size: 2rem; font-weight:700;">Design Validation</div>
+
+  <h4 style="font-size:1.4rem">Design validation is a critical process that helps Rio Tinto to ensure the quality, safety, reliability, and customer satisfaction of FST Application. </h4>
+        </br>
+        <div class="px-5 text-center">
+          <img src="../Image/RioTinto/UES model.png"  class=" img-fluid " style="max-width: 450px;" alt="Responsive image">
+        </div>
+       
+        <h4 style="font-size:1.4rem">Based on UES model (User Experience System from Alibaba Cloud), we measured FST from 5 dimensions: Satisfaction; Ease of Use; Consistency; Task Efficiency and Performance
+        
+          <div class="p-5 my-5" style="line-height: 2.4rem; background-color: #F8F9FA; color: #444; border-radius: 10px; font-size: 1.4rem;">
+            <div class="row mx-auto">
+              <div class="col-lg-3 text-center">
+              <p class="text-white" style="background-color:#E60D2E; border-radius:0rem">
+                Ease of Use
+              </p>
+            </div>
+            <div class="col-lg-9">
+            <p style="color:#666">
+              Product performance feedbacks collected through questionnaire based on SUS
+            </p>
+          </div>
+            </div>
+      
+            <div class="row mx-auto mt-3">
+              <div class="col-lg-3 text-center">
+              <p class="text-white" style="background-color:#E60D2E; border-radius:0rem">
+                Consistency
+              </p>
+            </div>
+            <div class="col-lg-9">
+            <p style="color:#666">
+             Overall style, components, visual language and interactions evaluated based on Walkthorugh
+            </p>
+          </div>
+            </div>
+      
+            <div class="row mx-auto mt-3">
+              <div class="col-lg-3 text-center">
+              <p class="text-white" style="background-color:#E60D2E; border-radius:0rem">
+           Satisfaction
+              </p>
+            </div>
+            <div class="col-lg-9">
+            <p style="color:#666">
+              Level of user satisfaction collected through rate function in FST app
+            </p>
+          </div>
+            </div>
+      
+            <div class="row mx-auto mt-3">
+              <div class="col-lg-3 text-center">
+              <p class="text-white" style="background-color:#E60D2E; border-radius:0rem">
+                Performance
+              </p>
+            </div>
+            <div class="col-lg-9">
+            <p style="color:#666">
+            API request response time, CVV loading time and page request response time
+            </p>
+          </div>
+            </div>
+      
+            <div class="row mx-auto mt-3">
+              <div class="col-lg-3 text-center">
+              <p class="text-white" style="background-color:#E60D2E; border-radius:0rem">
+                Tasks
+              </p>
+            </div>
+            <div class="col-lg-9">
+            <p style="color:#666">
+           Tasks completion rate, time and utilization level
+            </p>
+          </div>
+            </div>
+          </div>
+        </h4>
+        <div class="mb-4"style="color: #222222; font-size: 2rem; font-weight:700;">Final Score</div>
+
+  <h4 style="font-size:1.4rem">As promised in the SOW (Statement of Work), a score higher than 3.5 will be considered as a satisfied deliverable accepted by the customer. Without any doubts, the product hits the target. </h4>
+        <img src="../Image/RioTinto/final USE score.png"  class=" img-fluid max-width:100% "  alt="Responsive image">
+ 
     <button style="background-color: #FFFFFF; font-size: 1rem; color: #cdcdcd; border-width: 0px;" data-bs-toggle="collapse" data-bs-target="#cocontentUAT">See example  &raquo;</button>
     <div id="cocontentUAT" class="collapse">
+      <img src="../Image/RioTinto/questionnaire template.png"  class="my-3 img-fluid"style=" border-radius: 8px;" alt="Responsive image">
+      <img src="../Image/RioTinto/user task.png"  class="my-3 img-fluid"style=" border-radius: 8px;" alt="Responsive image">
       <img src="../Image/RioTinto/UAT.png"  class="my-3 img-fluid"style=" border-radius: 8px;" alt="Responsive image">
       
     </div>
@@ -669,7 +782,7 @@
           <h3  class="headline" style="margin-top: 8rem;">Next</h3>
           <div class="mb-4"style="color: #222222; font-size: 2rem; font-weight:700;">Future Step</div>
           <h4 style="font-size:1.4rem">
-            After the UAT and the report to the stakeholders, the customers are very<strong style="color:#444444">satisfied </strong> with the first stage's deliverables, and they see the potential of the Field Safety Tool.
+            After the UAT and the report to the stakeholders, the customers are very <strong style="color:#444444">satisfied </strong> with the first stage's deliverables, and they see the potential of the Field Safety Tool.
           </br>
         </br>
             As a result, <strong style="color:#444444">a few more features</strong> are initially addressed after a further deep-dive workshop
@@ -705,6 +818,21 @@
 
 
 </div>
+
+      <!-- Modal body
+<div class="modal fade" id="myModal1">
+  <div class="modal-dialog">
+    <div class="modal-content">
+
+      <div class="modal-body">
+        <img src="../Image/RioTintio_thumbnail.png" alt="Responsive image">
+      </div>
+    </div>
+  </div>
+</div>
+ -->
+
+
    <!--Footer-->
    <div class="container-fluid bg-dark py-3 px-5 text-end text-white">
     <p class="mb-0">©2022 coded by Siqi Liu</p>
