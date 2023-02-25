@@ -23,6 +23,40 @@
 
 </head>
 <body>
+    <div id="form">
+    <div class="forminner ">
+      <div class="row mb-5">
+        <img src="../Image/undraw_secure_files_re_6vdh.svg" class="px-5 mx-auto" style="max-width: 450px;">
+      </div>
+        <div class="row mt-5 justify-content-center">
+            <div class="col-6">
+              <label for="inputPassword" class="visually-hidden">Password</label>
+              <input type="password" class="form-control" id="password" placeholder="Enter password">
+            </div>
+            <div class="col-2">
+              <button type="submit" id="button" class="btn btn-primary mb-3" style="background-color: #000; border-color: #000;">Confirm</button>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="show">
+    <!--put in your code -->
+</div>
+<script>
+    
+    var button = document.querySelector("#button");
+    button.onclick = function(){
+        var password = document.querySelector("#password").value;
+        if(password == ""){
+            alert("The password is empty!please entry password");
+        }else if(password == 'urhired'){
+            document.querySelector("#form").style.display = "none";
+            document.querySelector("#show").style.display = "block";
+        }else{
+            alert("The password is wrong!");
+        }
+    }
+</script>
   <!--Content-->
 <div class="container-fluid p-0">
   <!--navbar-->
