@@ -256,6 +256,34 @@ a:hover{
     line-height: 1.4rem;
 }
 
+.btn-blue {
+    background-color: #23AEE5;
+    color: #ffffff;
+    font-family: 'Inter', sans-serif;
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 1.4rem;
+}
+
+.btn-blue:hover {
+    background-color: #fafafa;
+    border-color: #23AEE5;
+    color: #23AEE5;
+    font-family: 'Inter', sans-serif;
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 1.4rem;
+
+    border-width: 1px;
+}
+
+.bilibili {
+    color: #23AEE5;
+    font-family: 'Inter', sans-serif;
+    border-width: 1px;
+}
+
+
 .dropdown-item:active{
     background-color: #000000;
 }
